@@ -28,13 +28,13 @@ OWNER_ID = int(getenv("OWNER_ID", 7157587567))
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/doraemon890/KISHU-X-MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Jadugar-24/KISHU-X-MUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/JARVIS_X_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CHATTING_2024")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MRITYUY")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NOBITA_H")
 
 # Server limits and configurations - These can be set based on your server configurations
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
